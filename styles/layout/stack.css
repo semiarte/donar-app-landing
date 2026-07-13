@@ -1,0 +1,6 @@
+.stack {
+    display: flex;
+    flex-flow: if(media(width > 560px): row; else: column) wrap;
+    gap: var(--stack-gap, 1rem);
+    align-items: center;
+}
